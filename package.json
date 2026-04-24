@@ -1,0 +1,24 @@
+{
+  "name": "mfe-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack dev",
+    "preview": "rspack preview"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^2.0.0",
+    "@rspack/core": "^2.0.0",
+    "@rspack/dev-server": "^2.0.0",
+    "@rspack/plugin-react-refresh": "^2.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "react-refresh": "^0.18.0"
+  }
+}
